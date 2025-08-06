@@ -53,10 +53,11 @@ TWILIO_AUTH_TOKEN=your_auth_token
    If globally installed:
    n8n
 
-Or via npx:
+   Or via npx:
    npx n8n
 
 4. Import Workflow
+   
 I   Open http://localhost:5678
 
 II  Click the hamburger menu → Workflows → Import workflow
