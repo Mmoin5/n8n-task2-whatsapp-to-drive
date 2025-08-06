@@ -43,20 +43,26 @@ TWILIO_AUTH_TOKEN=your_auth_token
 ## 🛠 Setup Instructions
 
 1. Clone the Repository
+   
    git clone https://github.com/<your-username>/n8n-task2-whatsapp-to-drive.git
+   
    cd n8n-task2-whatsapp-to-drive
 
-2. Install Dependencies
+3. Install Dependencies
+   
    npm install
 
-3. Start n8n
+5. Start n8n
+   
    If globally installed:
+   
    n8n
 
    Or via npx:
+   
    npx n8n
 
-4. Import Workflow
+7. Import Workflow
    
    I   Open http://localhost:5678
 
@@ -66,12 +72,14 @@ TWILIO_AUTH_TOKEN=your_auth_token
 
    IV  Configure credentials:
 
-     i)  Twilio (Account SID + Auth Token)
+       i)  Twilio (Account SID + Auth Token)
 
-     ii) Google Drive (OAuth2)
+       ii) Google Drive (OAuth2)
 
-5. Set Webhook in Twilio
+8. Set Webhook in Twilio
+   
 Paste the Test Webhook URL from n8n into:
+
 Twilio Console → Messaging → WhatsApp Sandbox → When a message comes in → POST → <your n8n webhook URL>
 
 
