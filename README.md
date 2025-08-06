@@ -58,13 +58,13 @@ TWILIO_AUTH_TOKEN=your_auth_token
 
 4. Import Workflow
    
-I   Open http://localhost:5678
+   I   Open http://localhost:5678
 
-II  Click the hamburger menu → Workflows → Import workflow
+   II  Click the hamburger menu → Workflows → Import workflow
 
-III Choose the My workflow.json file
+   III Choose the My workflow.json file
 
-IV  Configure credentials:
+   IV  Configure credentials:
 
      i)  Twilio (Account SID + Auth Token)
 
@@ -78,9 +78,13 @@ Twilio Console → Messaging → WhatsApp Sandbox → When a message comes in �
 ## 📁 Project Structure
 
 n8n-task2/
+
 ├── node_modules/
+
 ├── package.json
+
 ├── package-lock.json
+
 └── My workflow.json
 
 
